@@ -15,3 +15,11 @@ key.forEach((a) => {
   count = 0;
 });
 console.log(final);
+
+// reducer
+
+console.log(
+  arr.reduce((p, c) => {
+    return p + c;
+  }, 0)
+);
