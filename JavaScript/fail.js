@@ -23,3 +23,8 @@ console.log(
     return p + c;
   }, 0)
 );
+function recurse(a, b) {
+  if (a % b == 2) return a;
+  else return recurse(a + b, a - b);
+}
+console.log(recurse(7, 2));
